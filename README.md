@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Prueba Técnica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Toda la prueba está dentro de esta página, es necesario tener **Node.js**. Para poder ejecutarla simplemente hay que hacer un
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+```
+npm i
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+En la ruta del proyecto y luego para correrlo un
+
+```
+npm run dev
+```
+
+Una vez hecho eso la aplicación se ejecutará en la ruta http://localhost:5173, ahí habrá 4 links que redireccionaran a cada uno de los ejercicios propuestos para esta prueba técnica, el código fuente de cada uno de los ejercicios se encuentra en **src/pages**.
+
+Adicionalmente, para ejecutar los test realizados al las utilidades y los componentes creados se realiza por medio del comando
+
+```
+npm run test
+```
+
+El código de dichos test se encuentra en la carpeta **/test**
+
+Muchas Gracias
